@@ -1,0 +1,1333 @@
+@import url("/js/index.js");
+
+
+*{
+    margin: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#background{
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+#navbar-title{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+
+#topcolor{
+    background-color: #F9B53A;
+    height: 4vh;
+}
+
+#navbar-title{
+    position: absolute;
+    display: block;
+    text-align: center;
+}
+
+#spacell {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    font-weight: bold;
+    font-size: 16px; 
+    color: black;   
+}
+
+#spacel {
+    padding-left: 20px;
+    
+}
+
+#spacerr{    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    font-weight: bold;
+    color: black;
+}
+
+#spacer{    
+    padding-right: 20px;
+    padding-left: 40px;
+}
+
+#resume{
+    background-color: #1C132B;
+    height: 25vh;
+    
+}
+
+#resume-container{
+    flex: none;
+    text-align: center;
+    color: white;
+}
+
+#constraction{
+    background-color: #0099E0;
+    height: 225vh;
+}
+
+#photo{
+  text-align: center;
+  top: 12vh;
+}
+
+#photo img{
+  height: 270px; 
+  width:auto;
+  margin-top: 10vh;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 15px 15px 8px #00000077;
+}
+
+
+
+
+#name{
+  top: 10vh;
+  font-size: 1.5em;
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em; 
+  max-width: 250px;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+#resumebox {
+  position: relative;
+  width: 180px;
+  height: 45px;
+  z-index: 100;
+  top: 5vh;
+  transition: transform .2s;
+}
+
+#resumebox a img{
+  width: 150px;
+  height: auto;
+}
+
+#resumebox a #resumetitle{
+  position: absolute;
+  color: white;
+  top: 1vh;
+}
+
+#resumebox:hover{
+  transform: scale(1.1);
+  text-shadow: 0 0 1px rgb(255, 255, 255);
+}
+
+#about{
+  position: relative;
+  padding-top: 60px;
+  text-align: center;
+}
+
+#about #imag{
+  position: absolute;
+  animation: anima 1.5s linear infinite;
+  top: 54%;
+  left: 49%;
+  text-align: center;
+  font-size: 16px;
+}
+
+@keyframes anima{
+  0%{margin-top:10px}
+  25%{margin-top: 5px}
+  50%{margin-top: 10px}
+  75%{margin-top: 15px}
+  100%{margin-top:10px}
+}
+
+#about p{
+  padding: 15px;
+}
+
+#details{
+  position: relative;
+}
+
+#windows #desktop{
+  height: 600px;
+  width: auto;
+  background: black;
+  position: relative;
+}
+
+#windows #phone{
+  display: none;
+}
+
+#windows #about{
+  display: flex;
+  position: absolute;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+  width: 1000px;
+  height: auto;
+  top: 60px;
+}
+
+#windows #about #details{
+  top: 100px;
+}
+
+#about::-webkit-scrollbar {
+  display: none;
+}
+
+#windows #about img{
+  border-radius:30px;
+}
+
+#project {
+  text-align: center;
+  top: 60px;
+  position: relative;
+}
+
+#project h3{
+  margin-top: 5px;
+}
+
+#project #project-box{
+  background-color: #F3AA30;
+  width: 75vh;
+  height: 120vh;
+  overflow-y: scroll;
+  transform: rotate(-90deg);
+  border-radius:8%;
+  position: absolute;
+  scroll-behavior: smoth;
+}
+
+#webpage{
+  position: relative;
+  width: 252px;
+  height: 320px;
+  background-color: #151433;
+  transform: rotate(90deg);
+  text-decoration: none;
+  color: white;
+  outline: none;
+}
+
+#webpage #logos{
+  width: 180px;
+}
+
+#webpage #log{
+  width: 120px;
+}
+
+#project-box::-webkit-scrollbar {
+  display: none;
+}
+
+#webpage h4{
+  text-decoration: none;
+  color: white;
+}
+
+#webpage #overlay{
+  text-decoration: none;
+  color: white;
+}
+
+#webpage img{
+  position: absolute;
+  top: 15vh;
+  left: 10px;
+}
+
+#webpage #overlay{
+  position: absolute;
+  top: 40vh;
+  background-color: rgba(0, 0, 0, 50%);
+  z-index: 10;
+  font-size: 14px;
+}
+
+#webpage a{
+  text-decoration: none;
+  color: white;
+}
+
+#workbg{
+  background: #0099E0;
+}
+
+#workspace{
+  padding: 50px;
+}
+
+#workspace h3{
+  text-align: center;
+}
+
+#worksapcebox{
+  display: flex;
+  padding: 50px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 25px;
+}
+
+#workspace #images img{
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+
+#workspace li{
+  padding: 10px;
+}
+
+#wrappe{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#wrappe .bi{
+  font-size: 26px;
+}
+
+#wrappe i{
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#wrappe .bi-whatsapp{
+  color: rgb(115, 255, 115);
+}
+
+#wrappe .bi-instagram{
+  color: white;
+}
+
+#wrappe .bi-github{
+  color: black;
+}
+
+#wrappe .bi-telegram{
+  color: blue;
+}
+
+#wrappe .bi-linkedin{
+  color: rgb(47, 47, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:400px){
+
+  body{ 
+    overflow-x: hidden;  
+  }
+
+  #background{
+    
+    height: 40vh;
+}
+
+    .navbar-collapse {
+        position: absolute;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+
+    #navbar-title{
+      width: 150px;
+      top: 15px;
+    }
+    
+    .navbar-collapse.collapsing {
+        height: auto;
+        -webkit-transition: left 0.3s ease;
+        -o-transition: left 0.3s ease;
+        -moz-transition: left 0.3s ease;
+        transition: left 0.3s ease;
+        left: -100%;
+    }
+    .navbar-collapse.show {
+        left: 0;
+        -webkit-transition: left 0.3s ease-in;
+        -o-transition: left 0.3s ease-in;
+        -moz-transition: left 0.3s ease-in;
+        transition: left 0.3s ease-in;
+    }
+    
+    #navbarNav{
+        background-image: linear-gradient(#3DFFA4, #5214FF);
+        height: 100vh;
+        width: 200px;
+        position: fixed;
+        z-index: 1000000;
+    }
+
+    #clickbtn{
+        border: none;
+        box-shadow: none;
+    }
+
+    navbar-toggler:focus{
+        outline: none;
+    }
+
+    svg {
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+.active svg {
+  transform: rotate(90deg);
+}
+path {
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dasharray 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+path:nth-child(1) {
+  transform-origin: 36% 40%;
+}
+path:nth-child(2) {
+  stroke-dasharray: 9 299;
+}
+path:nth-child(3) {
+  transform-origin: 35% 63%;
+}
+path:nth-child(4) {
+  stroke-dasharray: 29 299;
+}
+path:nth-child(5) {
+  transform-origin: 61% 52%;
+}
+path:nth-child(6) {
+  transform-origin: 62% 52%;
+}
+.active path:nth-child(1) {
+  transform: translateX(9px) translateY(1px) rotate(45deg);
+}
+.active path:nth-child(2) {
+  stroke-dasharray: 225 299;
+  stroke-dashoffset: -72px;
+}
+.active path:nth-child(3) {
+  transform: translateX(9px) translateY(1px) rotate(-45deg);
+}
+.active path:nth-child(4) {
+  stroke-dasharray: 225 299;
+  stroke-dashoffset: -72px;
+}
+.active path:nth-child(5) {
+  transform: translateX(9px) translateY(1px) rotate(-45deg);
+}
+.active path:nth-child(6) {
+  transform: translateX(9px) translateY(1px) rotate(45deg);
+}
+
+
+#constraction{
+  background-color: #0099E0;
+  height: 140vh;
+}
+
+
+    #spacerr{    
+        float: right;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        border: none;
+        padding-top: 30px;
+    }
+    
+    #spacer{    
+        padding-right: 20px;
+        padding-left: 20px;
+        border: none;
+    }
+
+    #spacell {
+        float: right;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: bold;
+        color: black;   
+        border: none;
+        padding-top: 30px;
+    }
+    
+    #spacel {
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+    }
+
+
+    #photo{
+      text-align: center;
+      top: 6vh;
+    }
+    
+    #photo img{
+      height: 120px; 
+      width:auto;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5vh;
+      box-shadow: 15px 15px 8px #00000077;
+    }
+
+    #resume{
+      height: 12vh;
+    }
+   
+
+    #name{
+      top: 10vh;
+      font-size: 1em;
+      overflow: hidden; 
+      border-right: .15em solid orange; 
+      white-space: nowrap;
+      margin: 0 auto;
+      letter-spacing: .15em; 
+      max-width: 250px;
+      animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    }
+    
+    
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 50% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: orange; }
+    }
+    
+    #resumebox {
+      position: relative;
+      width: 180px;
+      height: 45px;
+      z-index: 100;
+      top: 5vh;
+      transition: transform .2s;
+    }
+    
+    #resumebox a img{
+      width: 100px;
+      height: auto;
+    }
+    
+    #resumebox a #resumetitle{
+      position: absolute;
+      color: white;
+      top: .5vh;
+      font-size: 16px;
+    }
+    
+    #resumebox:hover{
+      transform: scale(1.1);
+      text-shadow: 0 0 1px rgb(255, 255, 255);
+    }
+
+  #about{
+    position: relative;
+    padding-top: 40px;
+    text-align: center;
+  }
+  
+  #about #imag{
+    position: absolute;
+    animation: anima 1.5s linear infinite;
+    top: 45%;
+    left: 45%;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  @keyframes anima{
+    0%{margin-top:10px}
+    25%{margin-top: 5px}
+    50%{margin-top: 10px}
+    75%{margin-top: 15px}
+    100%{margin-top:10px}
+  }
+  
+  #about p{
+    padding: 15px;
+  }
+
+  #windows #phone{
+    display: block;
+    height: 450px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 30px;
+    overflow-y: scroll;
+  }
+  
+  #windows #desktop{
+    display: none;
+  }
+
+  #windows #about{
+    position: absolute;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    top: 30px;
+    bottom: 30px;
+    display: block;
+    width: 250px;
+    overflow: scroll;
+    font-size: 12px;
+    padding: block;
+  }
+  
+  #windows #about img{
+    display:none;
+  }
+
+  #windows #about #details{
+    top: 0px;
+  }
+
+  #project {
+    top: 60px;
+    position: relative;
+  }
+  
+  #project h3{
+    margin-top: 5px;
+  }
+  
+  #project #project-box{
+    background-color: #F3AA30;
+    width: 350px;
+    height: 220px;
+    overflow-y: scroll;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 15vh;
+  }
+  
+  #webpage{
+    position: relative;
+    width: 150px;
+    height: 250px;
+    background-color: #151433;
+    transform: rotate(90deg);
+    color: white;
+    margin-top:-10px;
+  }
+
+  #webpage a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  #project-box::-webkit-scrollbar {
+    display: none;
+  }
+  
+  #webpage h4{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  #webpage #overlay{
+    text-decoration: none;
+    color: white;
+  }
+  
+  #webpage img{
+    position: absolute;
+    top: 10vh;
+    left: none;
+    width: 130px;
+  }
+
+  #webpage #logos{
+    width: 120px;
+  }
+  
+  #webpage #log{
+    width: 80px;
+  }
+  
+  #webpage #overlay{
+    position: absolute;
+    top: 25vh;
+    background-color: rgba(0, 0, 0, 50%);
+    z-index: 10;
+    font-size: 14px;
+  }
+
+  #worksapcebox{
+    height: 400px;
+    overflow: scroll;
+    position: relative;
+    padding-top: 1px;
+  }
+  
+  #workspace ul{
+    position: absolute;
+    width: 100%;
+    margin-left: -70px;
+    white-space: pre;
+  }
+
+  #workspace li{
+    list-style: none;
+    padding: 1px;
+  }
+
+  #workspace img{
+    display: none;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:992px){
+
+  body{ 
+    overflow-x: hidden;  
+  }
+
+  #background{
+    
+    height: 40vh;
+}
+
+    .navbar-collapse {
+        position: absolute;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+
+    #navbar-title{
+      width: 150px;
+      top: 15px;
+    }
+    
+    .navbar-collapse.collapsing {
+        height: auto;
+        -webkit-transition: left 0.3s ease;
+        -o-transition: left 0.3s ease;
+        -moz-transition: left 0.3s ease;
+        transition: left 0.3s ease;
+        left: -100%;
+    }
+    .navbar-collapse.show {
+        left: 0;
+        -webkit-transition: left 0.3s ease-in;
+        -o-transition: left 0.3s ease-in;
+        -moz-transition: left 0.3s ease-in;
+        transition: left 0.3s ease-in;
+    }
+    
+    #navbarNav{
+        background-image: linear-gradient(#3DFFA4, #5214FF);
+        height: 100vh;
+        width: 200px;
+        position: fixed;
+        z-index: 1000000;
+    }
+
+    #clickbtn{
+        border: none;
+        box-shadow: none;
+    }
+
+    navbar-toggler:focus{
+        outline: none;
+    }
+
+    svg {
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+.active svg {
+  transform: rotate(90deg);
+}
+path {
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dasharray 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+path:nth-child(1) {
+  transform-origin: 36% 40%;
+}
+path:nth-child(2) {
+  stroke-dasharray: 9 299;
+}
+path:nth-child(3) {
+  transform-origin: 35% 63%;
+}
+path:nth-child(4) {
+  stroke-dasharray: 29 299;
+}
+path:nth-child(5) {
+  transform-origin: 61% 52%;
+}
+path:nth-child(6) {
+  transform-origin: 62% 52%;
+}
+.active path:nth-child(1) {
+  transform: translateX(9px) translateY(1px) rotate(45deg);
+}
+.active path:nth-child(2) {
+  stroke-dasharray: 225 299;
+  stroke-dashoffset: -72px;
+}
+.active path:nth-child(3) {
+  transform: translateX(9px) translateY(1px) rotate(-45deg);
+}
+.active path:nth-child(4) {
+  stroke-dasharray: 225 299;
+  stroke-dashoffset: -72px;
+}
+.active path:nth-child(5) {
+  transform: translateX(9px) translateY(1px) rotate(-45deg);
+}
+.active path:nth-child(6) {
+  transform: translateX(9px) translateY(1px) rotate(45deg);
+}
+
+
+#constraction{
+  background-color: #0099E0;
+  height: 140vh;
+}
+
+
+    #spacerr{    
+        float: right;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        border: none;
+        padding-top: 30px;
+    }
+    
+    #spacer{    
+        padding-right: 20px;
+        padding-left: 20px;
+        border: none;
+    }
+
+    #spacell {
+        float: right;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: bold;
+        color: black;   
+        border: none;
+        padding-top: 30px;
+    }
+    
+    #spacel {
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+    }
+
+
+    #photo{
+      text-align: center;
+      top: 6vh;
+    }
+    
+    #photo img{
+      height: 120px; 
+      width:auto;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5vh;
+      box-shadow: 15px 15px 8px #00000077;
+    }
+
+    #resume{
+      height: 12vh;
+    }
+   
+
+    #name{
+      top: 10vh;
+      font-size: 1em;
+      overflow: hidden; 
+      border-right: .15em solid orange; 
+      white-space: nowrap;
+      margin: 0 auto;
+      letter-spacing: .15em; 
+      max-width: 250px;
+      animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    }
+    
+    
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 50% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: orange; }
+    }
+    
+    #resumebox {
+      position: relative;
+      width: 180px;
+      height: 45px;
+      z-index: 100;
+      top: 5vh;
+      transition: transform .2s;
+    }
+    
+    #resumebox a img{
+      width: 100px;
+      height: auto;
+    }
+    
+    #resumebox a #resumetitle{
+      position: absolute;
+      color: white;
+      top: .5vh;
+      font-size: 16px;
+    }
+    
+    #resumebox:hover{
+      transform: scale(1.1);
+      text-shadow: 0 0 1px rgb(255, 255, 255);
+    }
+
+  #about{
+    position: relative;
+    padding-top: 40px;
+    text-align: center;
+  }
+  
+  #about #imag{
+    position: absolute;
+    animation: anima 1.5s linear infinite;
+    top: 45%;
+    left: 47%;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  @keyframes anima{
+    0%{margin-top:10px}
+    25%{margin-top: 5px}
+    50%{margin-top: 10px}
+    75%{margin-top: 15px}
+    100%{margin-top:10px}
+  }
+  
+  #about p{
+    padding: 15px;
+  }
+
+  #windows #phone{
+    display: block;
+    height: 450px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 30px;
+    overflow-y: scroll;
+  }
+  
+  #windows #desktop{
+    display: none;
+  }
+
+  #windows #about{
+    position: absolute;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    top: 30px;
+    bottom: 30px;
+    display: block;
+    width: 250px;
+    overflow: scroll;
+    font-size: 12px;
+    padding: block;
+  }
+  
+  #windows #about img{
+    display:none;
+  }
+
+  #windows #about #details{
+    top: 0px;
+  }
+
+  #project {
+    top: 60px;
+    position: relative;
+  }
+  
+  #project h3{
+    margin-top: 5px;
+  }
+  
+  #project #project-box{
+    background-color: #F3AA30;
+    width: 350px;
+    height: 220px;
+    overflow-y: scroll;
+    transform: rotate(-90deg);
+    border-radius:1%;
+    position: absolute;
+    top: 15vh;
+  }
+  
+  #webpage{
+    position: relative;
+    width: 150px;
+    height: 250px;
+    background-color: #151433;
+    transform: rotate(90deg);
+    color: white;
+    margin-top:-10px;
+  }
+
+  #webpage a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  #project-box::-webkit-scrollbar {
+    display: none;
+  }
+  
+  #webpage h4{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  #webpage #overlay{
+    text-decoration: none;
+    color: white;
+  }
+  
+  #webpage img{
+    position: absolute;
+    top: 10vh;
+    left: none;
+    width: 130px;
+  }
+
+  #webpage #logos{
+    width: 120px;
+  }
+  
+  #webpage #log{
+    width: 80px;
+  }
+  
+  #webpage #overlay{
+    position: absolute;
+    top: 25vh;
+    background-color: rgba(0, 0, 0, 50%);
+    z-index: 10;
+    font-size: 14px;
+  }
+
+  #worksapcebox{
+    height: 400px;
+    overflow: scroll;
+    position: relative;
+    padding-top: 1px;
+  }
+  
+  #workspace ul{
+    position: absolute;
+    width: 100%;
+    margin-left: -70px;
+    white-space: pre;
+  }
+
+  #workspace li{
+    list-style: none;
+    padding: 1px;
+  }
+
+  #workspace img{
+    display: none;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1200px) and (min-width:992px){
+
+
+
+  #about p{
+    padding: 15px;
+  }
+  
+  #details{
+    position: relative;
+  }
+
+
+  #windows #desktop{
+    width: 900px;
+    height: auto;
+    background: black;
+    position: relative;
+  }
+  
+  #windows #phone{
+    display: none;
+  }
+  
+  #windows #about{
+    display: flex;
+    position: absolute;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    width: 800px;
+    height: auto;
+    top: 60px;
+  }
+  
+  #windows #about #details{
+    top: 100px;
+  }
+  
+  #about::-webkit-scrollbar {
+    display: none;
+  }
+  
+  #windows #about img{
+    border-radius:30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:317px) and (min-width:216px){
+
+
+
+  #project {
+    top: 60px;
+    position: relative;
+  }
+  
+  #project h3{
+    margin-top: 5px;
+  }
+  
+  #project #project-box{
+    background-color: #F3AA30;
+    width: 350px;
+    height: 220px;
+    overflow-y: scroll;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 15vh;
+    margin-left: -40px;
+  }
+  
+  #webpage{
+    position: relative;
+    width: 150px;
+    height: 250px;
+    background-color: #151433;
+    transform: rotate(90deg);
+    color: white;
+    margin-top:-10px;
+  }
+
+  #webpage a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  #project-box::-webkit-scrollbar {
+    display: none;
+  }
+  
+  #webpage h4{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  #webpage #overlay{
+    text-decoration: none;
+    color: white;
+  }
+  
+  #webpage img{
+    position: absolute;
+    top: 10vh;
+    left: none;
+    width: 130px;
+  }
+
+  #webpage #logos{
+    width: 120px;
+  }
+  
+  #webpage #log{
+    width: 80px;
+  }
+  
+  #webpage #overlay{
+    position: absolute;
+    top: 25vh;
+    background-color: rgba(0, 0, 0, 50%);
+    z-index: 10;
+    font-size: 14px;
+  }
+}

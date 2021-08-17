@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1554" height="857" viewBox="0 0 1554 857">
+  <g id="windows_box" data-name="windows box" transform="translate(-2205 -4352)">
+    <g id="Rectangle_16" data-name="Rectangle 16" transform="translate(2205 4352)" fill="none" stroke="#707070" stroke-width="1">
+      <rect width="1554" height="857" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1553" height="856" fill="none"/>
+    </g>
+    <g id="Rectangle_17" data-name="Rectangle 17" transform="translate(2205 4352)" stroke="#707070" stroke-width="1">
+      <rect width="1554" height="40" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1553" height="39" fill="none"/>
+    </g>
+    <rect id="Rectangle_21" data-name="Rectangle 21" width="1554" height="40" transform="translate(2205 4392)" fill="#333"/>
+    <g id="Rectangle_20" data-name="Rectangle 20" transform="translate(3687 4363.103)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      <rect width="15" height="13" stroke="none"/>
+      <rect x="1" y="1" width="13" height="11" fill="none"/>
+    </g>
+    <g id="Rectangle_19" data-name="Rectangle 19" transform="translate(3684 4366.103)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      <rect width="15" height="13" stroke="none"/>
+      <rect x="1" y="1" width="13" height="11" fill="none"/>
+    </g>
+    <path id="Path_4" data-name="Path 4" d="M20.314,0H0" transform="translate(3642.795 4379.103)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_5" data-name="Path 5" d="M20,0H222a20,20,0,0,1,20,20c0,11.046,15.13,20,4.084,20H-5.674C-16.72,40,0,31.046,0,20A20,20,0,0,1,20,0Z" transform="translate(2218 4352)" fill="#292929"/>
+    <path id="x" d="M4.847,4.847a1.185,1.185,0,0,1,1.678,0l6.27,6.272,6.27-6.272a1.186,1.186,0,0,1,1.678,1.678l-6.272,6.27,6.272,6.27a1.186,1.186,0,0,1-1.678,1.678l-6.27-6.272-6.27,6.272a1.186,1.186,0,1,1-1.678-1.678l6.272-6.27L4.847,6.525a1.185,1.185,0,0,1,0-1.678Z" transform="translate(2425.206 4359.205)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    <path id="x-2" data-name="x" d="M4.847,4.847a1.185,1.185,0,0,1,1.678,0l6.27,6.272,6.27-6.272a1.186,1.186,0,0,1,1.678,1.678l-6.272,6.27,6.272,6.27a1.186,1.186,0,0,1-1.678,1.678l-6.27-6.272-6.27,6.272a1.186,1.186,0,1,1-1.678-1.678l6.272-6.27L4.847,6.525a1.185,1.185,0,0,1,0-1.678Z" transform="translate(3719.706 4359.808)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    <text id="Kutty" transform="translate(2278 4377)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="-20.769" y="0">Kutty</tspan></text>
+    <path id="bar-chart-fill" d="M1,13.01a1.2,1.2,0,0,1,1.2-1.2H4.6a1.2,1.2,0,0,1,1.2,1.2v3.6a1.2,1.2,0,0,1-1.2,1.2H2.2a1.2,1.2,0,0,1-1.2-1.2Zm6.005-4.8a1.2,1.2,0,0,1,1.2-1.2h2.4a1.2,1.2,0,0,1,1.2,1.2v8.407a1.2,1.2,0,0,1-1.2,1.2h-2.4a1.2,1.2,0,0,1-1.2-1.2ZM13.01,2.2a1.2,1.2,0,0,1,1.2-1.2h2.4a1.2,1.2,0,0,1,1.2,1.2V16.614a1.2,1.2,0,0,1-1.2,1.2h-2.4a1.2,1.2,0,0,1-1.2-1.2Z" transform="translate(2225 4361.093)"/>
+    <path id="arrow-left" d="M25.872,11.495a.888.888,0,0,0-.888-.888H4.033L9.624,5.018A.889.889,0,1,0,8.366,3.76L1.26,10.866a.888.888,0,0,0,0,1.258l7.106,7.106a.889.889,0,1,0,1.258-1.258L4.033,12.383h20.95A.888.888,0,0,0,25.872,11.495Z" transform="translate(2220.408 4400.505)" fill="#fff" fill-rule="evenodd"/>
+    <path id="arrow-right" d="M1,12.555a1.006,1.006,0,0,1,1.006-1.006h23.73L19.4,5.219a1.007,1.007,0,1,1,1.425-1.425l8.049,8.049a1.006,1.006,0,0,1,0,1.425l-8.049,8.049A1.007,1.007,0,0,1,19.4,19.892l6.332-6.33H2.006A1.006,1.006,0,0,1,1,12.555Z" transform="translate(2276.914 4399.444)" fill-rule="evenodd"/>
+    <g id="refresh_black_24dp" transform="translate(2338 4400)">
+      <path id="Path_6" data-name="Path 6" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)"/>
+      <path id="Path_7" data-name="Path 7" d="M17.65,6.35A8,8,0,1,0,19.73,14H17.65A6,6,0,1,1,12,6a5.915,5.915,0,0,1,4.22,1.78L13,11h7V4Z" fill="#fff"/>
+    </g>
+    <g id="Rectangle_22" data-name="Rectangle 22" transform="translate(2397 4395)" stroke="#707070" stroke-width="1">
+      <rect width="1231" height="33" rx="16.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1230" height="32" rx="16" fill="none"/>
+    </g>
+    <g id="lock_black_24dp" transform="translate(2409 4400)">
+      <g id="Group_2" data-name="Group 2">
+        <path id="Path_8" data-name="Path 8" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)"/>
+        <path id="Path_9" data-name="Path 9" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)" opacity="0.87"/>
+      </g>
+      <path id="Path_10" data-name="Path 10" d="M18,8H17V6A5,5,0,1,0,7,6V8H6a2.006,2.006,0,0,0-2,2V20a2.006,2.006,0,0,0,2,2H18a2.006,2.006,0,0,0,2-2V10A2.006,2.006,0,0,0,18,8ZM9,6a3,3,0,0,1,6,0V8H9Zm9,14H6V10H18Z" transform="translate(0 0)" fill="#a5a5a5"/>
+    </g>
+    <text id="Thekutty.com_" data-name="Thekutty.com/#/" transform="translate(2524 4419)" fill="#fff" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-73.335" y="0">Thekutty.com</tspan><tspan y="0" fill="#6d6d6d">/#/</tspan></text>
+    <g id="more_vert_black_24dp" transform="translate(3726.58 4397.283)">
+      <path id="Path_11" data-name="Path 11" d="M0,0H28.434V28.434H0Z" fill="none"/>
+      <path id="Path_12" data-name="Path 12" d="M12.369,8.739A2.369,2.369,0,1,0,10,6.369,2.376,2.376,0,0,0,12.369,8.739Zm0,2.369a2.369,2.369,0,1,0,2.369,2.369A2.376,2.376,0,0,0,12.369,11.108Zm0,7.108a2.369,2.369,0,1,0,2.369,2.369A2.376,2.376,0,0,0,12.369,18.217Z" transform="translate(1.847 0.739)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
