@@ -586,7 +586,7 @@ path:nth-child(6) {
       width: 180px;
       height: 45px;
       z-index: 100;
-      top: 5vh;
+      margin-top: -2vh;
       transition: transform .2s;
     }
     
