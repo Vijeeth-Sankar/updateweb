@@ -538,6 +538,10 @@ path:nth-child(6) {
     #spacer #lethome{
       display: none;
     }
+    
+    #workbg{
+      display: none;
+    }
 
 
     #photo{
@@ -1159,7 +1163,7 @@ path:nth-child(6) {
   }
     
   #workbg{
-    margin-top: 15vh;
+    display:none;
   }
 
   #worksapcebox{
