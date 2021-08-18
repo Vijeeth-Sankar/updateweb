@@ -747,8 +747,8 @@ path:nth-child(6) {
     font-size: 14px;
   }
     
-    #workbg{
-    margin-top: 3vh;
+   #workbg{
+    margin-top: 7vh;
     background-color: #0099E0;
   }
 
@@ -1110,6 +1110,11 @@ path:nth-child(6) {
     transform: rotate(90deg);
     color: white;
     margin-top:-10px;
+  }
+    
+  #workbg{
+    margin-top: 7vh;
+    background-color: #0099E0;
   }
 
   #webpage a{
