@@ -539,8 +539,8 @@ path:nth-child(6) {
       display: none;
     }
     
-    #workbg{
-      display: none;
+    #midd{
+        height: 15vh;
     }
 
 
@@ -1162,8 +1162,8 @@ path:nth-child(6) {
     font-size: 14px;
   }
     
-  #workbg{
-    display:none;
+  #midd{
+    height: 15vh;
   }
 
   #worksapcebox{
