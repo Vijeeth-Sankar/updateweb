@@ -746,7 +746,10 @@ path:nth-child(6) {
     z-index: 10;
     font-size: 14px;
   }
-
+    
+  #workbg{
+    margin-top: 15vh;
+  }
 
   #worksapcebox{
     height: 400px;
@@ -1153,6 +1156,10 @@ path:nth-child(6) {
     background-color: rgba(0, 0, 0, 50%);
     z-index: 10;
     font-size: 14px;
+  }
+    
+  #workbg{
+    margin-top: 15vh;
   }
 
   #worksapcebox{
